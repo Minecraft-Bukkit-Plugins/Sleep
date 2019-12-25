@@ -1,5 +1,6 @@
 name: Sleep
 author: Franco28
-version: 1.0
+version: 1.1
+api-version: 1.15
 main: me.franco28.sleep.nightsleep
-description: Parte del codigo regulador del server
+description: Parte del codigo regulador del server, controla eventos a la hora de dormir y despertar.
