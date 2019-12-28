@@ -36,7 +36,6 @@ public class nightsleep extends JavaPlugin implements Listener {
 		if (day() == false) {
 			    Bukkit.broadcastMessage(ChatColor.RED + "" + p.getName() + " está durmiendo...");
 				p.sendTitle(ChatColor.BOLD + "Buenas Noches,", ChatColor.translateAlternateColorCodes('&', "&6&l" + p.getName() + ""));	
-		
 		} else {
 			p.sendTitle(ChatColor.RED + "Solo puedes dormir de noche, ", ChatColor.translateAlternateColorCodes('&', "o en una tormenta!" ));	
 		}
@@ -52,7 +51,7 @@ public class nightsleep extends JavaPlugin implements Listener {
 		      Bukkit.broadcastMessage(ChatColor.GOLD + "|-----------------------------------------|");
 		      Bukkit.broadcastMessage(ChatColor.BOLD + " Buenos dias dormilones! Son las 12:30hs   ");
 		      Bukkit.broadcastMessage(ChatColor.GOLD + "|-----------------------------------------|");
-	    } 
+		} 
 	}
 		
 }
